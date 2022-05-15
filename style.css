@@ -1,0 +1,88 @@
+.bootis2{
+position:sticky;
+top:0;
+z-index:1584;
+}
+body{
+padding-top:50px;
+text-align:center;
+background-color:aliceblue;
+}
+h1{
+background:linear-gradient(#4ceb34,#252ce8);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+
+font-size:50px;
+}
+img{
+width:800px;
+height:400px;
+vertical-align:center;
+}
+.row::after{
+content: "";
+clear: both;
+display: table;
+}
+.travel_mainDiv{
+float: left;
+width: 33.33%;
+padding: 5px;
+border: 1px solid #c7c7c7;
+}
+.travel_mainDiv img{
+width: 1100%;
+height: 500px;
+text-align:center; 
+}
+.travel_mainDiv hr{
+width: 100%;
+}
+.travel_mainDiv h5,.travel_mainDiv p{
+margin-left: 20px;
+}
+#achievementsID{
+padding-bottom: 10px;
+}
+.movie_head{
+font-size: 20px;
+padding: 6px 22px;
+border-radius: 10px;
+    margin-bottom: 15px;
+width: 100%;
+    display: inline-block;
+}
+.movie_haed i{
+    float: right;
+}
+.movie_text span{
+color:chartreuse;
+}
+#ima1{
+height:140px;
+width: 150px;
+}
+#ima2{
+height:140px;
+width: 150px;
+}
+#imas{
+ height:140px;
+width: 150px;
+}
+#mateo{
+height:240px;
+width: 180px;
+text-align:center;
+}
+#maxito{
+ height:170px;
+width: 150px; 
+text-align:center;
+}
+#alex{
+height:170px;
+width: 150px;
+text-align:center;
+}
